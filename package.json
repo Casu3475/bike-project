@@ -1,0 +1,31 @@
+{
+  "name": "casu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.56.18",
+    "@react-three/fiber": "^8.11.0",
+    "@react-three/postprocessing": "2.6",
+    "@react-three/rapier": "^0.9.0",
+    "r3f-perf": "6.5",
+    "rapier": "^1.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.149.0",
+    "yuka": "^0.7.8",
+    "zustand": "4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  }
+}
